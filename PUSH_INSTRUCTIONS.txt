@@ -1,0 +1,118 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║           PUSH TO GITHUB - SIMPLE INSTRUCTIONS                ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+STEP 1: CREATE REPOSITORY ON GITHUB
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Open browser and go to: https://github.com/new
+
+2. Fill in:
+   Repository name: heart-disease-prediction
+   Description: AI-powered heart disease prediction web app using Flask and KNN ML model (88.59% accuracy)
+   Visibility: Public
+
+3. IMPORTANT: DO NOT check any boxes (no README, no .gitignore, no license)
+
+4. Click "Create repository"
+
+
+STEP 2: RUN THE AUTOMATED SCRIPT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Option A - Double-click one of these files:
+   • push_to_github.bat (Windows Command Prompt)
+   • push_to_github.ps1 (PowerShell)
+
+Option B - Run manually in terminal:
+   git init
+   git add .
+   git commit -m "Initial commit: Heart Disease Prediction Web App"
+   git remote add origin https://github.com/aadityaraj2532/heart-disease-prediction.git
+   git branch -M main
+   git push -u origin main
+
+
+STEP 3: ENTER CREDENTIALS WHEN PROMPTED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Username: aadityaraj2532
+Password: [Use Personal Access Token - NOT your GitHub password]
+
+To get Personal Access Token:
+1. Go to: https://github.com/settings/tokens
+2. Click "Generate new token (classic)"
+3. Give it a name: "Heart Disease Project"
+4. Select scopes: repo (all)
+5. Click "Generate token"
+6. Copy the token and use it as password
+
+
+STEP 4: VERIFY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Open: https://github.com/aadityaraj2532/heart-disease-prediction
+
+You should see all your files!
+
+
+TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Problem: "repository not found"
+Solution: Make sure you created the repository on GitHub first
+
+Problem: "authentication failed"
+Solution: Use Personal Access Token, not your password
+
+Problem: "remote already exists"
+Solution: Run: git remote remove origin
+         Then try again
+
+Problem: "nothing to commit"
+Solution: Run: git add .
+         Then: git commit -m "Initial commit"
+
+
+WHAT WILL BE UPLOADED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ app.py
+✓ templates/index.html
+✓ requirements.txt
+✓ KNN_heart.pkl
+✓ scaler.pkl
+✓ columns.pkl
+✓ heart.csv
+✓ HeartDisease.ipynb
+✓ README.md
+✓ QUICKSTART.md
+✓ test_app.py
+✓ .gitignore
+
+✗ .vscode/ (excluded)
+✗ __pycache__/ (excluded)
+
+
+AFTER PUSHING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Add topics to your repository:
+- machine-learning
+- flask
+- python
+- healthcare
+- heart-disease
+- prediction
+- web-app
+- scikit-learn
+
+Your README.md will be displayed automatically!
+
+
+NEED HELP?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Read: GITHUB_SETUP.md for detailed instructions
